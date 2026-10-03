@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="140" viewBox="0 0 1600 140" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24243e"/>
+      <stop offset="1" stop-color="#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2e97"/>
+      <stop offset="0.5" stop-color="#8a2be2"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="fglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="140" fill="url(#bg)"/>
+
+  <!-- Neon waves -->
+  <path d="M0,58 C266,98 533,18 800,52 C1066,86 1333,28 1600,62 L1600,0 L0,0 Z" fill="url(#band)" opacity="0.30"/>
+  <path d="M0,46 C266,86 533,6 800,40 C1066,74 1333,16 1600,50 L1600,0 L0,0 Z" fill="url(#band)" opacity="0.85"/>
+
+  <!-- Sparkles -->
+  <g fill="#00e5ff" filter="url(#fglow)">
+    <path d="M560,92 l5,12 12,5 -12,5 -5,12 -5,-12 -12,-5 12,-5 z">
+      <animateTransform attributeName="transform" type="rotate" values="0 560 109; 180 560 109; 0 560 109" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1040,92 l5,12 12,5 -12,5 -5,12 -5,-12 -12,-5 12,-5 z" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" values="0 1040 109; -180 1040 109; 0 1040 109" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="800" y="118" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="600" letter-spacing="4" fill="#f4ecff" filter="url(#fglow)">Thanks for visiting!</text>
+</svg>

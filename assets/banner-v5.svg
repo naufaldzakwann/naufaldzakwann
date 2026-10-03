@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="Naufal Dzakwan — Fullstack Developer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#1a0b3b;#0f0c29" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.62" stop-color="#24243e"/>
+      <stop offset="1" stop-color="#302b63"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe259"/>
+      <stop offset="0.45" stop-color="#ff2e97"/>
+      <stop offset="1" stop-color="#8a2be2">
+        <animate attributeName="stop-color" values="#8a2be2;#00c6ff;#8a2be2" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2e97"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sunglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="lineglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="360" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff">
+    <circle cx="120" cy="62" r="1.6" opacity="0.7">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="265" cy="112" r="1.1" opacity="0.5"/>
+    <circle cx="420" cy="52" r="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="94" r="1" opacity="0.45"/>
+    <circle cx="705" cy="42" r="1.4" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="905" cy="72" r="1.1" opacity="0.5"/>
+    <circle cx="1052" cy="46" r="1.9" opacity="0.75">
+      <animate attributeName="opacity" values="1;0.25;1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1198" cy="102" r="1.4" opacity="0.6"/>
+    <circle cx="1352" cy="60" r="1.1" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.95;0.3" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1478" cy="118" r="1.5" opacity="0.65"/>
+    <circle cx="205" cy="182" r="1" opacity="0.4"/>
+    <circle cx="1428" cy="176" r="1" opacity="0.4"/>
+    <path d="M482,148 l3,8 8,3 -8,3 -3,8 -3,-8 -8,-3 8,-3 z" fill="#ffd6f0" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1136,138 l3,8 8,3 -8,3 -3,8 -3,-8 -8,-3 8,-3 z" fill="#bff4ff" opacity="0.7">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Shooting star -->
+  <g opacity="0">
+    <line x1="1250" y1="70" x2="1330" y2="106" stroke="url(#tail)" stroke-width="2.2" stroke-linecap="round"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.6;1" dur="3.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; -340 140" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Sun -->
+  <circle cx="800" cy="272" r="112" fill="url(#sun)" filter="url(#sunglow)" opacity="0.55"/>
+  <circle cx="800" cy="272" r="105" fill="url(#sun)"/>
+  <rect x="688" y="200" width="224" height="4" fill="url(#sky)"/>
+  <rect x="688" y="218" width="224" height="5" fill="url(#sky)"/>
+  <rect x="688" y="238" width="224" height="6" fill="url(#sky)"/>
+  <rect x="688" y="258" width="224" height="8" fill="url(#sky)"/>
+
+  <!-- Mountains -->
+  <path d="M0,272 L0,238 L90,252 L180,196 L260,232 L360,210 L470,248 L560,228 L660,272 Z" fill="#1b1136"/>
+  <path d="M0,238 L90,252 L180,196 L260,232 L360,210 L470,248 L560,228 L660,272" fill="none" stroke="#ff2e97" stroke-width="1.4" opacity="0.3"/>
+  <path d="M1600,272 L1600,242 L1520,254 L1430,204 L1340,236 L1240,214 L1140,250 L1040,232 L940,272 Z" fill="#150d2c"/>
+  <path d="M1600,242 L1520,254 L1430,204 L1340,236 L1240,214 L1140,250 L1040,232 L940,272" fill="none" stroke="#00e5ff" stroke-width="1.2" opacity="0.22"/>
+
+  <!-- Sea -->
+  <rect x="0" y="272" width="1600" height="88" fill="#0b0326"/>
+
+  <!-- Sun reflection -->
+  <rect x="740" y="276" width="120" height="8" fill="#ff2e97" opacity="0.14"/>
+  <line x1="768" y1="280" x2="768" y2="302" stroke="#ffd86b" stroke-width="4" opacity="0.5"/>
+  <line x1="784" y1="284" x2="784" y2="310" stroke="#ff7a5a" stroke-width="5" opacity="0.45"/>
+  <line x1="800" y1="280" x2="800" y2="318" stroke="#ff2e97" stroke-width="6" opacity="0.55"/>
+  <line x1="816" y1="286" x2="816" y2="312" stroke="#ff7a5a" stroke-width="5" opacity="0.4"/>
+  <line x1="832" y1="282" x2="832" y2="300" stroke="#ffd86b" stroke-width="4" opacity="0.35"/>
+
+  <!-- Perspective grid -->
+  <g stroke="url(#grid)" fill="none">
+    <line x1="0" y1="272" x2="1600" y2="272" stroke-width="1.5" opacity="0.55" filter="url(#lineglow)"/>
+    <line x1="0" y1="281" x2="1600" y2="281" stroke-width="1" opacity="0.28"/>
+    <line x1="0" y1="292" x2="1600" y2="292" stroke-width="1" opacity="0.30"/>
+    <line x1="0" y1="306" x2="1600" y2="306" stroke-width="1" opacity="0.33"/>
+    <line x1="0" y1="324" x2="1600" y2="324" stroke-width="1" opacity="0.36"/>
+    <line x1="0" y1="346" x2="1600" y2="346" stroke-width="1" opacity="0.40"/>
+    <g stroke-width="1" opacity="0.22">
+      <line x1="800" y1="272" x2="760" y2="360"/>
+      <line x1="800" y1="272" x2="840" y2="360"/>
+      <line x1="800" y1="272" x2="700" y2="360"/>
+      <line x1="800" y1="272" x2="900" y2="360"/>
+      <line x1="800" y1="272" x2="620" y2="360"/>
+      <line x1="800" y1="272" x2="980" y2="360"/>
+      <line x1="800" y1="272" x2="520" y2="360"/>
+      <line x1="800" y1="272" x2="1080" y2="360"/>
+      <line x1="800" y1="272" x2="400" y2="360"/>
+      <line x1="800" y1="272" x2="1200" y2="360"/>
+      <line x1="800" y1="272" x2="260" y2="360"/>
+      <line x1="800" y1="272" x2="1340" y2="360"/>
+      <line x1="800" y1="272" x2="100" y2="360"/>
+      <line x1="800" y1="272" x2="1500" y2="360"/>
+    </g>
+  </g>
+
+  <!-- Depth waves -->
+  <path d="M0,318 C266,298 533,338 800,318 C1066,298 1333,338 1600,318 L1600,360 L0,360 Z" fill="#1b1140" opacity="0.85"/>
+  <path d="M0,338 C320,322 640,354 960,338 C1220,326 1420,346 1600,336 L1600,360 L0,360 Z" fill="#12082b" opacity="0.9"/>
+
+  <!-- Title -->
+  <text x="800" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="5" fill="#ffffff" filter="url(#glow)">Naufal Dzakwan</text>
+  <text x="800" y="146" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="12" fill="#00e5ff" opacity="0.95">FULLSTACK DEVELOPER</text>
+</svg>

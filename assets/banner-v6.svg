@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="Naufal Dzakwan — Fullstack Developer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#1a0b3b;#0f0c29" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.62" stop-color="#24243e"/>
+      <stop offset="1" stop-color="#302b63"/>
+    </linearGradient>
+    <radialGradient id="heartglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2e97" stop-opacity="0.32"/>
+      <stop offset="0.65" stop-color="#8a2be2" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#8a2be2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heartGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff5fa8"/>
+      <stop offset="1" stop-color="#a01048"/>
+    </linearGradient>
+    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <g id="bat">
+      <path d="M-2,-1 L0,-7 L2,-1 Z"/>
+      <path d="M0,0 C-5,-6 -14,-8 -22,-4 C-16,-2 -13,3 -12,9 C-8,5 -3,4 0,7 C3,4 8,5 12,9 C13,3 16,-2 22,-4 C14,-8 5,-6 0,0 Z"/>
+    </g>
+    <g id="spark4">
+      <path d="M0,-8 C1,-3 3,-1 8,0 C3,1 1,3 0,8 C-1,3 -3,1 -8,0 C-3,-1 -1,-3 0,-8 Z"/>
+    </g>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="360" fill="url(#sky)"/>
+
+  <!-- Doodle dust: plus signs & dots -->
+  <g stroke="#8a7fc0" stroke-width="1.4" opacity="0.35" stroke-linecap="round">
+    <path d="M150,180 v10 M145,185 h10"/>
+    <path d="M480,60 v8 M476,64 h8"/>
+    <path d="M705,175 v8 M701,179 h8"/>
+    <path d="M1130,190 v10 M1125,195 h10"/>
+    <path d="M1460,150 v8 M1456,154 h8"/>
+    <path d="M620,300 v8 M616,304 h8"/>
+    <path d="M985,305 v8 M981,309 h8"/>
+  </g>
+
+  <!-- Bats -->
+  <g fill="#2a1a4a" stroke="#ff2e97" stroke-width="1" stroke-opacity="0.45">
+    <g transform="translate(295 120) scale(1.15)">
+      <g>
+        <use href="#bat"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" dur="3.4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(1305 100) scale(-1.15 1.15)">
+      <g>
+        <use href="#bat"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="4.1s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(1075 158) scale(0.75)">
+      <g>
+        <use href="#bat"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="2.9s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(520 165) scale(0.6)">
+      <g>
+        <use href="#bat"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="3.8s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sparkles -->
+  <g filter="url(#neon)">
+    <use href="#spark4" transform="translate(210 90) scale(0.9)" fill="#00e5ff">
+      <animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#spark4" transform="translate(1420 120) scale(1.1)" fill="#ff2e97">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </use>
+    <use href="#spark4" transform="translate(565 235) scale(0.7)" fill="#ff2e97">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#spark4" transform="translate(1045 240) scale(0.8)" fill="#00e5ff">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3.1s" repeatCount="indefinite"/>
+    </use>
+    <use href="#spark4" transform="translate(1330 265) scale(0.6)" fill="#ff8ac2">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#spark4" transform="translate(265 265) scale(0.65)" fill="#bff4ff">
+      <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.9s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- Glow behind heart -->
+  <ellipse cx="800" cy="245" rx="310" ry="150" fill="url(#heartglow)"/>
+
+  <!-- Broken heart -->
+  <g filter="url(#neon)" stroke="#ff8ac2" stroke-width="1.6" stroke-opacity="0.7">
+    <path d="M799,203 C779,181 749,179 736,199 C721,224 741,259 799,299 L786,276 L802,252 L786,228 Z" fill="url(#heartGrad)"/>
+    <path d="M807,203 C827,181 857,179 870,199 C885,224 865,259 807,299 L794,276 L810,252 L794,228 Z" fill="url(#heartGrad)"/>
+  </g>
+  <!-- Drips -->
+  <g stroke="#ff2e97" stroke-linecap="round" filter="url(#neon)">
+    <line x1="766" y1="297" x2="766" y2="318" stroke-width="6"/>
+    <line x1="800" y1="299" x2="800" y2="326" stroke-width="6"/>
+    <line x1="836" y1="297" x2="836" y2="314" stroke-width="6"/>
+  </g>
+  <g fill="#ff2e97" filter="url(#neon)">
+    <circle cx="766" cy="328" r="4">
+      <animate attributeName="cy" values="322;348" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="336" r="4.5">
+      <animate attributeName="cy" values="332;356" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="836" cy="324" r="3.6">
+      <animate attributeName="cy" values="318;342" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="800" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="5" fill="#ffffff" filter="url(#glow)">Naufal Dzakwan</text>
+  <text x="800" y="146" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="12" fill="#00e5ff" opacity="0.95">FULLSTACK DEVELOPER</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="Naufal Dzakwan — Fullstack Developer">
+  <defs>
+    <radialGradient id="vignette" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#16161f"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </radialGradient>
+    <radialGradient id="bloodglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b0f16" stop-opacity="0.6"/>
+      <stop offset="0.6" stop-color="#5c0a10" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5c0a10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2efe6"/>
+      <stop offset="1" stop-color="#cfc8b4"/>
+    </linearGradient>
+    <linearGradient id="redline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E5383B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E5383B"/>
+      <stop offset="1" stop-color="#E5383B" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0; 0.3 0; -0.3 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="redglow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="titleglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="360" fill="url(#vignette)"/>
+  <ellipse cx="800" cy="250" rx="480" ry="170" fill="url(#bloodglow)"/>
+
+  <!-- Faint bone-white dust -->
+  <g fill="#f2efe6">
+    <circle cx="180" cy="66" r="1.4" opacity="0.4"/>
+    <circle cx="340" cy="112" r="1" opacity="0.3"/>
+    <circle cx="540" cy="52" r="1.2" opacity="0.35"/>
+    <circle cx="1055" cy="58" r="1.3" opacity="0.35"/>
+    <circle cx="1262" cy="100" r="1" opacity="0.3"/>
+    <circle cx="1432" cy="62" r="1.4" opacity="0.4"/>
+  </g>
+
+  <!-- Winged skull emblem -->
+  <g transform="translate(800 240) scale(1.3) translate(-800 -246)">
+    <!-- Wings (left drawn, right mirrored) -->
+    <g id="wingL">
+      <path d="M758,210 C696,174 590,158 500,186 C590,190 686,210 758,234 Z" fill="#343441"/>
+      <path d="M758,238 C684,208 578,206 486,246 C584,238 682,254 758,268 Z" fill="#2a2a34"/>
+      <path d="M758,266 C692,250 606,260 526,300 C612,280 694,284 758,290 Z" fill="#1e1e27"/>
+      <path d="M758,288 C702,280 632,290 556,322 C640,302 702,302 758,304 Z" fill="#14141c"/>
+      <path d="M758,210 C700,178 604,164 516,190" fill="none" stroke="#E5383B" stroke-width="1.2" opacity="0.35"/>
+    </g>
+    <use href="#wingL" transform="translate(1600 0) scale(-1 1)"/>
+
+    <!-- Skull -->
+    <g>
+      <ellipse cx="800" cy="234" rx="49" ry="53" fill="url(#bone)"/>
+      <path d="M751,258 C753,284 762,300 774,308 L826,308 C838,300 847,284 849,258 C838,270 820,277 800,277 C780,277 762,270 751,258 Z" fill="url(#bone)"/>
+      <ellipse cx="778" cy="238" rx="14.5" ry="18" fill="#0a0a0f" transform="rotate(-8 778 238)"/>
+      <ellipse cx="822" cy="238" rx="14.5" ry="18" fill="#0a0a0f" transform="rotate(8 822 238)"/>
+      <circle cx="778" cy="242" r="4.2" fill="#E5383B" filter="url(#redglow)">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="822" cy="242" r="4.2" fill="#E5383B" filter="url(#redglow)">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M800,252 L791,276 Q800,283 809,276 Z" fill="#0a0a0f"/>
+      <rect x="778" y="290" width="44" height="13" rx="3" fill="url(#bone)" stroke="#0a0a0f" stroke-width="1.5"/>
+      <line x1="789" y1="290" x2="789" y2="303" stroke="#0a0a0f" stroke-width="2"/>
+      <line x1="800" y1="290" x2="800" y2="303" stroke="#0a0a0f" stroke-width="2"/>
+      <line x1="811" y1="290" x2="811" y2="303" stroke="#0a0a0f" stroke-width="2"/>
+      <path d="M760,226 C765,214 775,206 788,203" fill="none" stroke="#a89f8c" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- Floor -->
+  <line x1="0" y1="318" x2="1600" y2="318" stroke="url(#redline)" stroke-width="1.6"/>
+  <g stroke="#4a1218" stroke-width="1" opacity="0.5">
+    <line x1="800" y1="318" x2="740" y2="360"/>
+    <line x1="800" y1="318" x2="860" y2="360"/>
+    <line x1="800" y1="318" x2="660" y2="360"/>
+    <line x1="800" y1="318" x2="940" y2="360"/>
+    <line x1="800" y1="318" x2="560" y2="360"/>
+    <line x1="800" y1="318" x2="1040" y2="360"/>
+    <line x1="800" y1="318" x2="440" y2="360"/>
+    <line x1="800" y1="318" x2="1160" y2="360"/>
+  </g>
+  <g stroke="#4a1218" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="328" x2="1600" y2="328"/>
+    <line x1="0" y1="340" x2="1600" y2="340"/>
+    <line x1="0" y1="354" x2="1600" y2="354"/>
+  </g>
+
+  <!-- Title -->
+  <text x="800" y="88" text-anchor="middle" font-family="Impact,'Arial Black','Segoe UI',Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="5" fill="#f2efe6" filter="url(#titleglow)">NAUFAL DZAKWAN</text>
+  <text x="800" y="124" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="10" fill="#E5383B">FULLSTACK DEVELOPER</text>
+</svg>

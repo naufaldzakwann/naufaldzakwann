@@ -5,7 +5,7 @@
      ═══════════════════════════════════════════════════════════════ -->
 
 <!-- 🌅 Banner -->
-<img src="./assets/banner-v3.svg" alt="Naufal Dzakwan — Fullstack Developer" width="100%" />
+<img src="./assets/banner-v4.svg" alt="Naufal Dzakwan — Fullstack Developer" width="100%" />
 
 <!-- ⌨️ Animasi mengetik — tambah/kurangi baris di parameter `lines=` -->
 <div align="center">

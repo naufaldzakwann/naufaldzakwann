@@ -7,17 +7,17 @@
       <stop offset="0.62" stop-color="#24243e"/>
       <stop offset="1" stop-color="#302b63"/>
     </linearGradient>
-    <radialGradient id="heartglow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ff2e97" stop-opacity="0.32"/>
-      <stop offset="0.65" stop-color="#8a2be2" stop-opacity="0.14"/>
+    <radialGradient id="neonbg" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2e97" stop-opacity="0.28"/>
+      <stop offset="0.65" stop-color="#8a2be2" stop-opacity="0.13"/>
       <stop offset="1" stop-color="#8a2be2" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="heartGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff5fa8"/>
-      <stop offset="1" stop-color="#a01048"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9d2ea"/>
     </linearGradient>
     <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -46,11 +46,10 @@
   <g stroke="#8a7fc0" stroke-width="1.4" opacity="0.35" stroke-linecap="round">
     <path d="M150,180 v10 M145,185 h10"/>
     <path d="M480,60 v8 M476,64 h8"/>
-    <path d="M705,175 v8 M701,179 h8"/>
     <path d="M1130,190 v10 M1125,195 h10"/>
     <path d="M1460,150 v8 M1456,154 h8"/>
-    <path d="M620,300 v8 M616,304 h8"/>
-    <path d="M985,305 v8 M981,309 h8"/>
+    <path d="M1250,320 v8 M1246,324 h8"/>
+    <path d="M360,320 v8 M356,324 h8"/>
   </g>
 
   <!-- Bats -->
@@ -67,13 +66,13 @@
         <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="4.1s" repeatCount="indefinite"/>
       </g>
     </g>
-    <g transform="translate(1075 158) scale(0.75)">
+    <g transform="translate(1090 150) scale(0.75)">
       <g>
         <use href="#bat"/>
         <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="2.9s" repeatCount="indefinite"/>
       </g>
     </g>
-    <g transform="translate(520 165) scale(0.6)">
+    <g transform="translate(505 168) scale(0.6)">
       <g>
         <use href="#bat"/>
         <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="3.8s" repeatCount="indefinite"/>
@@ -89,10 +88,10 @@
     <use href="#spark4" transform="translate(1420 120) scale(1.1)" fill="#ff2e97">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="4.2s" repeatCount="indefinite"/>
     </use>
-    <use href="#spark4" transform="translate(565 235) scale(0.7)" fill="#ff2e97">
+    <use href="#spark4" transform="translate(565 100) scale(0.7)" fill="#ff2e97">
       <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.8s" repeatCount="indefinite"/>
     </use>
-    <use href="#spark4" transform="translate(1045 240) scale(0.8)" fill="#00e5ff">
+    <use href="#spark4" transform="translate(1045 95) scale(0.8)" fill="#00e5ff">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="3.1s" repeatCount="indefinite"/>
     </use>
     <use href="#spark4" transform="translate(1330 265) scale(0.6)" fill="#ff8ac2">
@@ -103,32 +102,33 @@
     </use>
   </g>
 
-  <!-- Glow behind heart -->
-  <ellipse cx="800" cy="245" rx="310" ry="150" fill="url(#heartglow)"/>
+  <!-- Glow behind cigarette -->
+  <ellipse cx="800" cy="252" rx="330" ry="140" fill="url(#neonbg)"/>
 
-  <!-- Broken heart -->
-  <g filter="url(#neon)" stroke="#ff8ac2" stroke-width="1.6" stroke-opacity="0.7">
-    <path d="M799,203 C779,181 749,179 736,199 C721,224 741,259 799,299 L786,276 L802,252 L786,228 Z" fill="url(#heartGrad)"/>
-    <path d="M807,203 C827,181 857,179 870,199 C885,224 865,259 807,299 L794,276 L810,252 L794,228 Z" fill="url(#heartGrad)"/>
+  <!-- Smoke -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M691,266 C679,252 703,240 691,224 C681,210 703,200 695,188" stroke="#cdb9ff" stroke-width="3.5" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 -12" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M710,262 C720,248 702,236 712,222 C720,210 706,200 714,188" stroke="#b79fff" stroke-width="3" opacity="0">
+      <animate attributeName="opacity" values="0;0.5;0" dur="4.6s" begin="1.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 -12" dur="4.6s" begin="1.8s" repeatCount="indefinite"/>
+    </path>
+    <!-- tiny heart-shaped smoke puff -->
+    <path d="M712,176 C706,171 704,166 707,163 C709,161 712,162 712,165 C712,162 715,161 717,163 C720,166 718,171 712,176 Z" stroke="#ff8ac2" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0.75;0" dur="4.6s" begin="2.6s" repeatCount="indefinite"/>
+    </path>
   </g>
-  <!-- Drips -->
-  <g stroke="#ff2e97" stroke-linecap="round" filter="url(#neon)">
-    <line x1="766" y1="297" x2="766" y2="318" stroke-width="6"/>
-    <line x1="800" y1="299" x2="800" y2="326" stroke-width="6"/>
-    <line x1="836" y1="297" x2="836" y2="314" stroke-width="6"/>
-  </g>
-  <g fill="#ff2e97" filter="url(#neon)">
-    <circle cx="766" cy="328" r="4">
-      <animate attributeName="cy" values="322;348" dur="2.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="800" cy="336" r="4.5">
-      <animate attributeName="cy" values="332;356" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="2.8s" begin="0.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="836" cy="324" r="3.6">
-      <animate attributeName="cy" values="318;342" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+
+  <!-- Cigarette -->
+  <g transform="translate(800 258) rotate(-14)">
+    <circle cx="-120" cy="0" r="13" fill="#ff2e97" opacity="0.3" filter="url(#neon)"/>
+    <rect x="-116" y="-4.5" width="16" height="9" rx="4" fill="#6b6b7a"/>
+    <rect x="-100" y="-7" width="168" height="14" rx="6" fill="url(#paper)" stroke="#f4ecff" stroke-width="1"/>
+    <rect x="68" y="-7" width="38" height="14" rx="6" fill="#ff2e97"/>
+    <circle cx="-120" cy="0" r="7.5" fill="#ff8a3c" filter="url(#neon)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="1.6s" repeatCount="indefinite"/>
     </circle>
   </g>
 

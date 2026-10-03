@@ -57,6 +57,7 @@
 
 <!-- Animasi ini digenerate otomatis setiap hari oleh GitHub Action (.github/workflows/snake.yml).
      Jika gambar belum muncul, tunggu 1–2 menit sampai workflow pertama selesai. -->
+<!-- 🐍 Digenerate otomatis setiap hari oleh GitHub Action (.github/workflows/snake.yml) -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/naufaldzakwann/naufaldzakwann/output/github-contribution-grid-snake-dark.svg" />

@@ -14,6 +14,13 @@
   </a>
 </div>
 
+<!-- 🌐 Portfolio CTA -->
+<div align="center">
+  <a href="https://porto-ten-tau.vercel.app">
+    <img src="https://img.shields.io/badge/MY_PORTFOLIO-visit_my_personal_site-FF2E97?style=for-the-badge&labelColor=0D1117&logo=vercel&logoColor=white" alt="My Portfolio — Naufal Dzakwan" />
+  </a>
+</div>
+
 ## ⚡ About Me
 
 <!-- ✏️ tweak these lines anytime -->
@@ -67,6 +74,10 @@
 ## 🌐 Connect With Me
 
 <div align="center">
+  <a href="https://porto-ten-tau.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-naufal.vercel.app-FF2E97?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="Portfolio" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/naufaldzakwannn/">
     <img src="https://img.shields.io/badge/LinkedIn-naufaldzakwannn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>

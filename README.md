@@ -17,7 +17,7 @@
 <!-- 🌐 Portfolio CTA -->
 <div align="center">
   <a href="https://porto-ten-tau.vercel.app">
-    <img src="https://img.shields.io/badge/visit_my_personal_site-FF2E97?style=for-the-badge&labelColor=0D1117&logo=vercel&logoColor=white" alt="Visit my personal site — Naufal Dzakwan" />
+    <img src="https://img.shields.io/badge/visit_my_personal_site-FF2E97?style=for-the-badge" alt="Visit my personal site — Naufal Dzakwan" />
   </a>
 </div>
 

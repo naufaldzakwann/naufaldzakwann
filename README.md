@@ -48,10 +48,17 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=naufaldzakwann&repo=violet-global-indonesia-web-profile&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=FF2E97&text_color=C9D1D9" alt="Pinned Repo" width="49%" />
 </div>
 
-## 💬 Random Dev Quote
+## 🎸 Song Quotes
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" width="100%" />
+  <i>"I'm free to be whatever I, whatever I choose."</i> — <b>Oasis</b><br/>
+  <sub>(Aku bebas menjadi apa pun yang aku pilih.)</sub>
+  <br/><br/>
+  <i>"It's something unpredictable, but in the end it's right."</i> — <b>Green Day</b><br/>
+  <sub>(Ini adalah sesuatu yang tak terduga, namun pada akhirnya terasa benar.)</sub>
+  <br/><br/>
+  <i>"The more I see, the less I know, the more I like to let it go."</i> — <b>Red Hot Chili Peppers</b><br/>
+  <sub>(Semakin banyak yang aku lihat, semakin sedikit yang aku pahami, dan semakin aku ingin melepaskannya.)</sub>
 </div>
 
 ## 📅 Contribution Graph

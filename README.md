@@ -24,11 +24,17 @@
 ## ⚡ About Me
 
 <!-- ✏️ tweak these lines anytime -->
-- 🔭  building a company profile site with Next.js & TypeScript right now
-- 🤖  wrote a Python bot for Threads, mostly to see if I could
-- 🎮  shipped a Java game for my OOP class and honestly had fun doing it
-- 💬  ask me about web dev, Python, or bots
-- ⚡  fun fact: my repos span TypeScript, Python, Java… and one site GitHub thinks is Assembly 😄
+- 🧑‍💻 I build full-stack web projects with Next.js, TypeScript, and React.
+- 🤖 I made a Python bot for Threads, mostly to see how far I could take the idea.
+- 🎮 My favorite class project so far was turning an OOP assignment into a Java game.
+- 💬 Ask me about web apps, Python, or bots.
+- ⚡ My repos span TypeScript, Python, and Java… plus one site GitHub thinks is Assembly 😄
+
+## 🚀 Selected Projects
+
+- **[PT Violet Global Indonesia](https://github.com/naufaldzakwann/violet-global-indonesia-web-profile):** A company profile site built with Next.js and TypeScript.
+- **[Threads Bot](https://github.com/naufaldzakwann/threads-bot):** A Python automation project that started with a simple “can I make this work?”
+- **[PBO-GAME](https://github.com/naufaldzakwann/PBO-GAME):** A Java game made for an object-oriented programming class.
 
 ## 🛠️ Tech Stack
 
@@ -51,14 +57,9 @@
 ## 🎸 Song Quotes
 
 <div align="center">
-  <i>"I'm free to be whatever I, whatever I choose."</i> — <b>Oasis</b><br/>
-  <sub>(Aku bebas menjadi apa pun yang aku pilih.)</sub>
-  <br/><br/>
-  <i>"It's something unpredictable, but in the end it's right."</i> — <b>Green Day</b><br/>
-  <sub>(Ini adalah sesuatu yang tak terduga, namun pada akhirnya terasa benar.)</sub>
-  <br/><br/>
-  <i>"The more I see, the less I know, the more I like to let it go."</i> — <b>Red Hot Chili Peppers</b><br/>
-  <sub>(Semakin banyak yang aku lihat, semakin sedikit yang aku pahami, dan semakin aku ingin melepaskannya.)</sub>
+  <p><i>"I'm free to be whatever I, whatever I choose."</i><br/>— <b>Oasis</b></p>
+  <p><i>"It's something unpredictable, but in the end it's right."</i><br/>— <b>Green Day</b></p>
+  <p><i>"The more I see, the less I know, the more I like to let it go."</i><br/>— <b>Red Hot Chili Peppers</b></p>
 </div>
 
 ## 📅 Contribution Graph

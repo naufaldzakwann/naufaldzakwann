@@ -104,21 +104,17 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 
 ## Selected work
 
-**[Dava Dental Care](https://github.com/naufaldzakwann/dentalclinic-dava)**<br>
+**[Dava Dental](https://github.com/naufaldzakwann/dentalclinic-dava)**<br>
 A dental practice website with an interactive 3D introduction and a WhatsApp appointment planner.<br>
 `Next.js` · `TypeScript` · `React Three Fiber` · `Prisma`
 
-**[Violet Global Indonesia](https://github.com/naufaldzakwann/violet-global-indonesia-web-profile)**<br>
-A company website presenting technology, consulting, cybersecurity, and energy services.<br>
-`Next.js` · `React` · `Tailwind CSS` · `GSAP`
+**[Copilot Extension](https://porto-ten-tau.vercel.app/#work)**<br>
+Container Pilot, a Firefox extension for targeted click automation across container tabs, with per-tab controls and a shared dashboard.<br>
+`JavaScript` · `Firefox WebExtensions API` · `HTML` · `CSS`
 
-**[Threads Bot](https://github.com/naufaldzakwann/threads-bot)**<br>
-A desktop workspace for managing Threads accounts and scheduling posts.<br>
-`Python` · `FastAPI` · `Electron` · `React`
-
-**[PBO-GAME](https://github.com/naufaldzakwann/PBO-GAME)**<br>
-A Java Swing brick-breaker game with keyboard controls and scoring.<br>
-`Java` · `Swing` · `OOP`
+**[Lambe Apps](https://porto-ten-tau.vercel.app/#work)**<br>
+An on-device social app prototype for discussions, discovery, and communities.<br>
+`Expo` · `React Native` · `TypeScript` · `React Navigation`
 
 [More projects and design work on my portfolio →](https://porto-ten-tau.vercel.app)
 

@@ -1,7 +1,7 @@
 <!-- Custom name artwork is stored in this repository; static variants respect reduced motion. -->
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/name-header-static.svg" />
-  <img src="./assets/name-header.svg" alt="Naufal Dzakwan" width="100%" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/name-header-clear-static.svg" />
+  <img src="./assets/name-header-clear.svg" alt="Naufal Dzakwan" width="100%" />
 </picture>
 <p align="center">
   <picture>

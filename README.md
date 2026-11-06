@@ -10,17 +10,6 @@
   </picture>
 </p>
 
-## About me
-
-I'm Naufal, based in Semarang, Indonesia. I build web applications with Next.js, React, and Laravel, and use Python for automation. My work also covers UI/UX design in Figma and testing features before release.
-
-<p>
-  <a href="https://porto-ten-tau.vercel.app"><img src="./assets/badges/portfolio.svg" alt="Portfolio" height="26" /></a>
-  <a href="https://www.instagram.com/naufaal.n/"><img src="./assets/badges/instagram.svg" alt="@naufaal.n" height="26" /></a>
-  <a href="https://www.linkedin.com/in/naufaldzakwannn/"><img src="./assets/badges/linkedin.svg" alt="LinkedIn" height="26" /></a>
-  <a href="mailto:naufal.dzakwan91@gmail.com"><img src="./assets/badges/email.svg" alt="Email" height="26" /></a>
-</p>
-
 ## Tech stack
 
 **Languages**

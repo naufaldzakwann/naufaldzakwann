@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Dava Dental — web, 3D and appointments</title>
+  <desc id="desc">Abstract project artwork: a wireframe dental form and connected appointment tiles. This is an illustration, not a product screenshot.</desc>
+  <defs><radialGradient id="glow"><stop stop-color="#9f4a6f" stop-opacity=".18"/><stop offset="1" stop-color="#08070a" stop-opacity="0"/></radialGradient></defs>
+  <rect x=".5" y=".5" width="639" height="279" rx="3" fill="#08070a" stroke="#49313e"/>
+  <ellipse cx="464" cy="140" rx="165" ry="125" fill="url(#glow)"/>
+  <path d="M24 46h592M24 238h592" stroke="#352531"/>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.8" fill="#b68e9f"><text x="26" y="29">SELECTED WORK / 01</text><text x="614" y="29" text-anchor="end">WEB EXPERIENCE</text></g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="97" font-size="34" font-weight="600" fill="#e9bacd" letter-spacing="-.8">Dava Dental</text><text x="29" y="128" font-size="14" fill="#bda4b2">A welcoming first impression.</text><text x="29" y="149" font-size="14" fill="#bda4b2">A simpler path to an appointment.</text></g>
+  <g fill="none" stroke="#a96e89" stroke-width="1.2">
+    <path d="M421 86c-18-13-43-3-42 22 0 14 7 26 11 40 4 13 4 42 14 42 8 0 10-30 18-30s10 30 18 30c10 0 10-29 14-42 4-14 11-26 11-40 1-25-24-35-43-22Z"/>
+    <path d="M385 98c22 12 52 12 75 0M381 111c25 13 57 13 82 0M385 126c23 10 51 10 74 0M390 141c20 8 43 8 64 0M395 158c8 3 14 4 22 3m12 0 21-3M403 83l-3 106M422 89v71M441 83l3 106" opacity=".42"/>
+    <ellipse cx="422" cy="140" rx="70" ry="72" stroke-dasharray="2 7" opacity=".4"/>
+    <path d="M471 141h32v35h17" stroke-dasharray="4 5"/>
+  </g>
+  <g transform="translate(512 163)"><rect width="82" height="53" rx="3" fill="#171018" stroke="#694257"/><path d="M0 15h82M17 8V-4M65 8V-4" fill="none" stroke="#a77991"/><g fill="#e9bacd"><rect x="15" y="25" width="8" height="8" rx="1"/><rect x="37" y="25" width="8" height="8" rx="1" opacity=".4"/><rect x="59" y="25" width="8" height="8" rx="1" opacity=".4"/></g></g>
+  <path d="M28 187h30m9 0h30m9 0h30" stroke="#c38aa4" stroke-width="2"/><circle cx="145" cy="187" r="3" fill="#e9bacd"/>
+  <g font-family="ui-monospace,Consolas,monospace" font-size="10" fill="#b68e9f"><text x="28" y="261">WEB / 3D / APPOINTMENTS</text><text x="613" y="261" text-anchor="end">OPEN PROJECT ↗</text></g>
+</svg>

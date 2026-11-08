@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Design, build, test, ship</title>
+  <desc id="desc">Interface design, application development, quality assurance, and delivery.</desc>
+  <rect x=".5" y=".5" width="479" height="259" rx="3" fill="#08070a" stroke="#352531"/>
+  <g fill="#af8e9f" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4"><text x="24" y="29">HOW I WORK</text><text x="456" y="29" text-anchor="end">IDEA → RELEASE</text></g>
+  <path d="M24 46h432M240 64v170M24 150h432" stroke="#352531" fill="none"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <g transform="translate(24 0)"><text y="79" fill="#a77991" font-size="10">01</text><text x="25" y="82" fill="#e9bacd" font-size="23" font-weight="600">Design</text><text y="111" fill="#bda4b2" font-size="12">Clear interfaces</text><text y="129" fill="#bda4b2" font-size="12">&amp; user flows</text></g>
+    <g transform="translate(264 0)"><text y="79" fill="#a77991" font-size="10">02</text><text x="25" y="82" fill="#e9bacd" font-size="23" font-weight="600">Build</text><text y="111" fill="#bda4b2" font-size="12">Frontend, backend</text><text y="129" fill="#bda4b2" font-size="12">&amp; data</text></g>
+    <g transform="translate(24 112)"><text y="79" fill="#a77991" font-size="10">03</text><text x="25" y="82" fill="#e9bacd" font-size="23" font-weight="600">Test</text><text y="111" fill="#bda4b2" font-size="12">Useful checks &amp; automation</text></g>
+    <g transform="translate(264 112)"><text y="79" fill="#a77991" font-size="10">04</text><text x="25" y="82" fill="#e9bacd" font-size="23" font-weight="600">Ship</text><text y="111" fill="#bda4b2" font-size="12">Release &amp; keep improving</text></g>
+  </g>
+</svg>

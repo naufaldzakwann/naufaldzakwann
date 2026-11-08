@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Container Pilot — browser containers and automation</title>
+  <desc id="desc">Abstract project artwork: separate browser containers connected to a shared control point. This is a conceptual diagram, not a product screenshot.</desc>
+  <defs><radialGradient id="glow"><stop stop-color="#9f4a6f" stop-opacity=".15"/><stop offset="1" stop-color="#08070a" stop-opacity="0"/></radialGradient></defs>
+  <rect x=".5" y=".5" width="639" height="279" rx="3" fill="#08070a" stroke="#49313e"/>
+  <ellipse cx="467" cy="140" rx="160" ry="125" fill="url(#glow)"/>
+  <path d="M24 46h592M24 238h592" stroke="#352531"/>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.8" fill="#b68e9f"><text x="26" y="29">SELECTED WORK / 02</text><text x="614" y="29" text-anchor="end">BROWSER AUTOMATION</text></g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="97" font-size="32" font-weight="600" fill="#e9bacd" letter-spacing="-1">Container Pilot</text><text x="29" y="128" font-size="14" fill="#bda4b2">Separate browser contexts.</text><text x="29" y="149" font-size="14" fill="#bda4b2">One place to keep them in sync.</text></g>
+  <g fill="#110c13" stroke="#72485f" stroke-width="1.2"><rect x="426" y="68" width="164" height="86" rx="3"/><rect x="403" y="91" width="164" height="86" rx="3"/><rect x="380" y="114" width="164" height="86" rx="3" stroke="#c18aa5"/></g>
+  <g fill="none" stroke="#72485f"><path d="M427 88h162M404 111h162M381 134h162"/></g>
+  <g fill="#c18aa5"><circle cx="392" cy="125" r="2"/><circle cx="400" cy="125" r="2" opacity=".6"/><circle cx="408" cy="125" r="2" opacity=".3"/></g>
+  <g fill="none" stroke="#c18aa5" stroke-width="1.2"><path d="M403 153h30v26h-30zM448 153h30v26h-30zM493 153h30v26h-30z"/><path d="M416 166h4m40 0h4m40 0h4M461 200v14h-92v-24h-26" stroke-dasharray="3 4"/></g>
+  <circle cx="334" cy="190" r="9" fill="#24131f" stroke="#e9bacd"/><path d="m331 190 2 2 4-5" fill="none" stroke="#e9bacd" stroke-width="1.2"/>
+  <g fill="none" stroke="#c38aa4" stroke-width="1.2"><path d="m28 180 8 8-8 8M49 196h14"/></g>
+  <g font-family="ui-monospace,Consolas,monospace" font-size="10" fill="#b68e9f"><text x="28" y="261">EXTENSION / CONTAINERS / AUTOMATION</text><text x="613" y="261" text-anchor="end">OPEN PROJECT ↗</text></g>
+</svg>

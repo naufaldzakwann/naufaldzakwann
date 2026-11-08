@@ -6,9 +6,52 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/greeting-static.svg" />
-    <img src="./assets/greeting.svg" alt="nice to meet you" width="640" />
+    <img src="./assets/greeting-typed.svg" alt="nice to meet you" width="640" />
   </picture>
 </p>
+
+<p align="center">
+  <b>Full-Stack Developer · UI/UX Designer · QA Tester</b><br>
+  <sub>Semarang, Indonesia</sub>
+</p>
+<p align="center">
+  <a href="https://porto-ten-tau.vercel.app"><img src="./assets/badges/portfolio.svg" alt="Visit my portfolio" height="28" /></a>
+  <a href="mailto:naufal.dzakwan91@gmail.com"><img src="./assets/badges/email.svg" alt="Email me" height="28" /></a>
+  <a href="https://www.linkedin.com/in/naufaldzakwannn/"><img src="./assets/badges/linkedin.svg" alt="Connect on LinkedIn" height="28" /></a>
+</p>
+
+## How I work
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/workflow-mobile.svg" />
+  <img src="./assets/workflow.svg" alt="Design interfaces, build applications, test user flows, and ship to the web." width="100%" />
+</picture>
+
+## Selected work
+
+<!-- Project cover illustrations represent each project's focus; they are not product screenshots. -->
+<a href="https://dentalclinic-dava.vercel.app"><img src="./assets/project-dava.svg" alt="Dava Dental: a dental practice website with 3D and appointment planning" width="100%" /></a>
+
+A dental practice website with an interactive 3D introduction and a WhatsApp appointment planner.
+`Next.js` · `TypeScript` · `React Three Fiber` · `Prisma`
+
+[Open live site ↗](https://dentalclinic-dava.vercel.app) · [View repository](https://github.com/naufaldzakwann/dentalclinic-dava)
+
+<a href="https://porto-ten-tau.vercel.app/#work"><img src="./assets/project-container.svg" alt="Container Pilot: a Firefox extension for browser container automation" width="100%" /></a>
+
+A Firefox extension for targeted click automation across container tabs, with per-tab controls and a shared dashboard.
+`JavaScript` · `Firefox WebExtensions API` · `HTML` · `CSS`
+
+[Explore project ↗](https://porto-ten-tau.vercel.app/#work)
+
+<a href="https://porto-ten-tau.vercel.app/#work"><img src="./assets/project-lambe.svg" alt="Lambe Apps: an on-device social app prototype" width="100%" /></a>
+
+An on-device social app prototype for discussions, discovery, and communities.
+`Expo` · `React Native` · `TypeScript` · `React Navigation`
+
+[Explore project ↗](https://porto-ten-tau.vercel.app/#work)
+
+[More projects and design work on my portfolio →](https://porto-ten-tau.vercel.app)
 
 ## Tech stack
 
@@ -91,21 +134,6 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 
 </details>
 
-## Selected work
-
-**[Dava Dental](https://github.com/naufaldzakwann/dentalclinic-dava)**<br>
-A dental practice website with an interactive 3D introduction and a WhatsApp appointment planner.<br>
-`Next.js` · `TypeScript` · `React Three Fiber` · `Prisma`
-
-**[Copilot Extension](https://porto-ten-tau.vercel.app/#work)**<br>
-Container Pilot, a Firefox extension for targeted click automation across container tabs, with per-tab controls and a shared dashboard.<br>
-`JavaScript` · `Firefox WebExtensions API` · `HTML` · `CSS`
-
-**[Lambe Apps](https://porto-ten-tau.vercel.app/#work)**<br>
-An on-device social app prototype for discussions, discovery, and communities.<br>
-`Expo` · `React Native` · `TypeScript` · `React Navigation`
-
-[More projects and design work on my portfolio →](https://porto-ten-tau.vercel.app)
 
 ## Around GitHub
 

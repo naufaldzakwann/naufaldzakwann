@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Lambe Apps — on-device communities</title>
+  <desc id="desc">Abstract project artwork: a mobile outline connected to conversation and community motifs. This is an illustration, not a product screenshot.</desc>
+  <defs><radialGradient id="glow"><stop stop-color="#9f4a6f" stop-opacity=".17" /><stop offset="1" stop-color="#08070a" stop-opacity="0" /></radialGradient></defs>
+  <style>
+.community-orbits { transform-origin: 472px 144px; animation: community-sway 11s ease-in-out infinite; }
+.orbit-flow { animation: orbit-travel 18s linear infinite; }
+.phone-float { animation: phone-levitate 5.6s ease-in-out infinite; }
+.message-dot { animation: message-wave 2.4s ease-in-out infinite; }
+@keyframes community-sway { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+@keyframes orbit-travel { to { stroke-dashoffset: -80; } }
+@keyframes phone-levitate { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes message-wave { 0%,25%,65%,100% { transform: translateY(0); } 45% { transform: translateY(-2.5px); } }
+@media (prefers-reduced-motion: reduce) {
+  .community-orbits,.orbit-flow,.phone-float,.message-dot { animation: none; }
+}
+</style><rect x=".5" y=".5" width="639" height="279" rx="3" fill="#08070a" stroke="#49313e" />
+  <ellipse cx="466" cy="140" rx="160" ry="125" fill="url(#glow)" />
+  <path d="M24 46h592M24 238h592" stroke="#352531" />
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.8" fill="#b68e9f"><text x="26" y="29">SELECTED WORK / 03</text><text x="614" y="29" text-anchor="end">MOBILE EXPLORATION</text></g>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="97" font-size="34" font-weight="600" fill="#e9bacd" letter-spacing="-.8">Lambe Apps</text><text x="29" y="128" font-size="14" fill="#bda4b2">Conversations, discovery</text><text x="29" y="149" font-size="14" fill="#bda4b2">and communities, on device.</text></g>
+  <g fill="none" stroke="#694257" class="community-orbits"><ellipse cx="472" cy="144" rx="111" ry="58" transform="rotate(-22 472 144)" stroke-dasharray="2 6" class="orbit-flow" /><ellipse cx="472" cy="144" rx="100" ry="83" transform="rotate(25 472 144)" opacity=".45" /></g>
+  <g class="phone-float"><g transform="translate(437 68)"><rect width="82" height="149" rx="13" fill="#110c13" stroke="#c18aa5" stroke-width="1.4" /><path d="M27 10h28M28 138h26" stroke="#8f617a" stroke-linecap="round" /><circle cx="41" cy="58" r="18" fill="none" stroke="#c18aa5" /><path d="M32 58h18M41 49v18" stroke="#e9bacd" /><path d="M19 96h44M27 106h28" stroke="#8f617a" stroke-linecap="round" /></g>
+  </g><g fill="#21131e" stroke="#a77991" stroke-width="1.2"><path d="M378 106h39a4 4 0 0 1 4 4v23a4 4 0 0 1-4 4h-22l-10 8v-8h-7a4 4 0 0 1-4-4v-23a4 4 0 0 1 4-4Z" /><path d="M537 153h39a4 4 0 0 1 4 4v23a4 4 0 0 1-4 4h-7v8l-10-8h-22a4 4 0 0 1-4-4v-23a4 4 0 0 1 4-4Z" /></g>
+  <g fill="#e9bacd"><circle cx="386" cy="122" r="2" class="message-dot" style="animation-delay: -0.0s" /><circle cx="397" cy="122" r="2" class="message-dot" style="animation-delay: -0.2s" /><circle cx="408" cy="122" r="2" class="message-dot" style="animation-delay: -0.4s" /><circle cx="545" cy="169" r="2" class="message-dot" style="animation-delay: -0.0s" /><circle cx="556" cy="169" r="2" class="message-dot" style="animation-delay: -0.2s" /><circle cx="567" cy="169" r="2" class="message-dot" style="animation-delay: -0.4s" /></g>
+  <g fill="none" stroke="#c38aa4" stroke-width="1.2"><circle cx="36" cy="185" r="7" /><circle cx="61" cy="185" r="7" /><circle cx="86" cy="185" r="7" /><path d="M43 185h11M68 185h11" /></g>
+  <g font-family="ui-monospace,Consolas,monospace" font-size="10" fill="#b68e9f"><text x="28" y="261">MOBILE / DISCOVERY / COMMUNITIES</text><text x="613" y="261" text-anchor="end">OPEN PROJECT ↗</text></g>
+</svg>

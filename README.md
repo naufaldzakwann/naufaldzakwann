@@ -11,40 +11,51 @@
 </p>
 
 <p align="center">
-  <b>Full-Stack Developer · UI/UX Designer · QA Tester</b><br>
-  <sub>Semarang, Indonesia</sub>
-</p>
-<p align="center">
-  <a href="https://porto-ten-tau.vercel.app"><img src="./assets/badges/portfolio.svg" alt="Visit my portfolio" height="28" /></a>
-  <a href="mailto:naufal.dzakwan91@gmail.com"><img src="./assets/badges/email.svg" alt="Email me" height="28" /></a>
-  <a href="https://www.linkedin.com/in/naufaldzakwannn/"><img src="./assets/badges/linkedin.svg" alt="Connect on LinkedIn" height="28" /></a>
+  <img src="https://komarev.com/ghpvc/?username=naufaldzakwann&amp;label=profile+views&amp;color=86566d&amp;style=flat-square" alt="Profile views" height="20" />
 </p>
 
 ## How I work
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/workflow-mobile.svg" />
-  <img src="./assets/workflow.svg" alt="Design interfaces, build applications, test user flows, and ship to the web." width="100%" />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/workflow-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workflow.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/workflow-mobile-motion.svg" />
+  <img src="./assets/workflow-motion.svg" alt="Design interfaces, build applications, test user flows, and ship to the web." width="100%" />
 </picture>
 
 ## Selected work
 
 <!-- Project cover illustrations represent each project's focus; they are not product screenshots. -->
-<a href="https://dentalclinic-dava.vercel.app"><img src="./assets/project-dava.svg" alt="Dava Dental: a dental practice website with 3D and appointment planning" width="100%" /></a>
+<a href="https://dentalclinic-dava.vercel.app">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-dava.svg" />
+    <img src="./assets/project-dava-motion.svg" alt="Dava Dental: a dental practice website with 3D and appointment planning" width="100%" />
+  </picture>
+</a>
 
 A dental practice website with an interactive 3D introduction and a WhatsApp appointment planner.
 `Next.js` · `TypeScript` · `React Three Fiber` · `Prisma`
 
 [Open live site ↗](https://dentalclinic-dava.vercel.app) · [View repository](https://github.com/naufaldzakwann/dentalclinic-dava)
 
-<a href="https://porto-ten-tau.vercel.app/#work"><img src="./assets/project-container.svg" alt="Container Pilot: a Firefox extension for browser container automation" width="100%" /></a>
+<a href="https://porto-ten-tau.vercel.app/#work">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-container.svg" />
+    <img src="./assets/project-container-motion.svg" alt="Container Pilot: a Firefox extension for browser container automation" width="100%" />
+  </picture>
+</a>
 
 A Firefox extension for targeted click automation across container tabs, with per-tab controls and a shared dashboard.
 `JavaScript` · `Firefox WebExtensions API` · `HTML` · `CSS`
 
 [Explore project ↗](https://porto-ten-tau.vercel.app/#work)
 
-<a href="https://porto-ten-tau.vercel.app/#work"><img src="./assets/project-lambe.svg" alt="Lambe Apps: an on-device social app prototype" width="100%" /></a>
+<a href="https://porto-ten-tau.vercel.app/#work">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-lambe.svg" />
+    <img src="./assets/project-lambe-motion.svg" alt="Lambe Apps: an on-device social app prototype" width="100%" />
+  </picture>
+</a>
 
 An on-device social app prototype for discussions, discovery, and communities.
 `Expo` · `React Native` · `TypeScript` · `React Navigation`
@@ -134,6 +145,12 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 
 </details>
 
+## Intermission
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/arcade-pong-static.svg" />
+  <img src="./assets/arcade-pong.svg" alt="Pong arcade display: a looping rally between two paddles, just for fun." width="100%" />
+</picture>
 
 ## Around GitHub
 
@@ -149,7 +166,3 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 </picture>
 
 </details>
-
----
-
-Have a project in mind? [Email me](mailto:naufal.dzakwan91@gmail.com) or find me on [Instagram](https://www.instagram.com/naufaal.n/) and [LinkedIn](https://www.linkedin.com/in/naufaldzakwannn/).

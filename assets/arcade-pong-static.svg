@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280" role="img" aria-labelledby="pong-title pong-desc">
+  <title id="pong-title">Intermission — Pong</title>
+  <desc id="pong-desc">A decorative retro Pong display. A ball bounces between two paddles in a ten-second loop; this is artwork, not an interactive game or project demo.</desc>
+
+  <rect x=".5" y=".5" width="959" height="279" rx="3" fill="#08070a" stroke="#49313e"/>
+  <path d="M24 46h912M24 238h912" stroke="#352531"/>
+  <g fill="#b68e9f" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.8">
+    <text x="26" y="29">INTERMISSION / PONG</text>
+    <text x="934" y="29" text-anchor="end">ARCADE DISPLAY</text>
+    <text x="28" y="261">A SMALL BREAK BETWEEN BUILDS.</text>
+    <text x="932" y="261" text-anchor="end">JUST FOR FUN</text>
+  </g>
+  <path d="M56 78h848v142H56z" fill="#0c090e" stroke="#49313e"/>
+  <path d="M480 84v130" fill="none" stroke="#634352" stroke-dasharray="4 8"/>
+  <path d="M56 94V78h16M888 78h16v16M904 204v16h-16M72 220H56v-16" fill="none" stroke="#a77991"/>
+  <circle cx="480" cy="149" r="28" fill="none" stroke="#352531"/>
+  <path d="M474 149h12M480 143v12" stroke="#49313e"/>
+  <g class="paddle-left">
+    <rect x="70" y="129" width="6" height="40" rx="1" fill="#e9bacd"/>
+    <path d="M65 137v24" stroke="#8b566f" stroke-width="1"/>
+  </g>
+  <g class="paddle-right">
+    <rect x="884" y="129" width="6" height="40" rx="1" fill="#e9bacd"/>
+    <path d="M895 137v24" stroke="#8b566f" stroke-width="1"/>
+  </g>
+  <g class="pong-ball">
+    <circle cx="81" cy="149" r="9" fill="#e9bacd" opacity=".07"/>
+    <circle cx="81" cy="149" r="5" fill="#f8dce8"/>
+  </g>
+</svg>

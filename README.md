@@ -68,7 +68,7 @@ An on-device social app prototype for discussions, discovery, and communities.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,php,java,html,css,react,nextjs,vue,nuxt,tailwind,figma,threejs,nodejs,laravel,express,nestjs,fastapi,postgres,mysql,redis,supabase,playwright,selenium,git&amp;perline=13" alt="Technologies I reach for, at a glance" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,php,java,html,css,react,nextjs,vue,nuxt,tailwind,figma,threejs,nodejs,laravel,express,nestjs,fastapi,postgres,mysql,redis,supabase,jest,selenium,git&amp;perline=13" alt="Technologies I reach for, at a glance" />
   </a>
 </p>
 

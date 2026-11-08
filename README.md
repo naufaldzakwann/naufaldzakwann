@@ -163,8 +163,8 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 [Browse my repositories](https://github.com/naufaldzakwann?tab=repositories) · [View contribution activity](https://github.com/naufaldzakwann?tab=overview)
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=naufaldzakwann&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;rank_icon=github&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;icon_color=ff487d&amp;border_color=332b3a" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naufaldzakwann&amp;layout=compact&amp;langs_count=8&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;border_color=332b3a" alt="Most used languages" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api?username=naufaldzakwann&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;rank_icon=github&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;icon_color=ff487d&amp;border_color=332b3a" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=naufaldzakwann&amp;layout=compact&amp;langs_count=8&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;border_color=332b3a" alt="Most used languages" />
 </p>
 
 <p align="center">

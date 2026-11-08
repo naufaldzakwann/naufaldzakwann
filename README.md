@@ -181,3 +181,7 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 </picture>
 
 </details>
+
+<p align="center">
+  <img src="./assets/footer-v3.svg" alt="Thanks for visiting" width="100%" />
+</p>

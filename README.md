@@ -66,6 +66,12 @@ An on-device social app prototype for discussions, discovery, and communities.
 
 ## Tech stack
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,py,php,java,html,css,react,nextjs,vue,nuxt,tailwind,figma,threejs,nodejs,laravel,express,nestjs,fastapi,postgres,mysql,redis,supabase,playwright,selenium,git&amp;perline=13" alt="Technologies I reach for, at a glance" />
+  </a>
+</p>
+
 **Languages**
 
 <p>
@@ -155,6 +161,15 @@ Also used across individual projects: **Framer Motion · Rust · GDScript · Ble
 ## Around GitHub
 
 [Browse my repositories](https://github.com/naufaldzakwann?tab=repositories) · [View contribution activity](https://github.com/naufaldzakwann?tab=overview)
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=naufaldzakwann&amp;show_icons=true&amp;include_all_commits=true&amp;count_private=true&amp;rank_icon=github&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;icon_color=ff487d&amp;border_color=332b3a" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naufaldzakwann&amp;layout=compact&amp;langs_count=8&amp;bg_color=0d0b12&amp;title_color=e9bacd&amp;text_color=c9c1d4&amp;border_color=332b3a" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img height="195" src="https://streak-stats.demolab.com?user=naufaldzakwann&amp;background=0d0b12&amp;border=332b3a&amp;stroke=e9bacd&amp;ring=ff487d&amp;fire=ff487d&amp;currStreakLabel=e9bacd&amp;sideLabels=c9c1d4&amp;currStreakNum=c9c1d4&amp;sideNums=c9c1d4&amp;dates=8a8398" alt="Contribution streak" />
+</p>
 
 <details>
 <summary>Watch the contribution trail</summary>
